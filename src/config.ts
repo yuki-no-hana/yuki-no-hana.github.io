@@ -14,7 +14,7 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'Seiu Zhao',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://yuki-no-hana.github.io',
     // base path
     // root directory for all pages and assets
     base: '/', // e.g., '/blog', '/docs'
