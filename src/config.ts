@@ -27,15 +27,15 @@ export const themeConfig: ThemeConfig = {
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'light', // light | dark | auto
+    mode: 'auto', // light | dark | auto
     light: {
       // primary color
       // used for title, hover, etc
       // oklch color picker: https://oklch.com/
-      primary: 'oklch(25% 0.005 298)',
+      primary: 'oklch(30.25% 0.0291 46.32)',
       // secondary color
       // used for post text
-      secondary: 'oklch(40% 0.005 298)',
+      secondary: 'oklch(39.93% 0.0447 45.88)',
       // background color
       background: 'oklch(97.5% 0.011 17.3)',
       // highlight color
@@ -44,11 +44,11 @@ export const themeConfig: ThemeConfig = {
     },
     dark: {
       // primary color
-      primary: 'oklch(92% 0.005 298)',
+      primary: 'oklch(90% 0.085 85)',
       // secondary color
-      secondary: 'oklch(77% 0.005 298)',
+      secondary: 'oklch(95% 0.055 95)',
       // background color
-      background: 'oklch(22% 0.005 298)',
+      background: 'oklch(20% 0.045 265)',
       // highlight color
       highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)', // rgba(255,235,0,0.2)
     },
